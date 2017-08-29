@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="planned_task" label="Project" max_length="40" name="pm_project" sizeclass="5" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="a" max_length="40" name="x_58872_needit_a" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="abcd" max_length="4000" name="x_58872_needit_abcd" type="string"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="b" max_length="20" name="x_58872_needit_b" type="price"/>
+        <element label="c" max_length="65536" name="x_58872_needit_c" type="html"/>
+        <element label="d" max_length="40" name="x_58872_needit_d" type="color"/>
+    </element>
+</database>
